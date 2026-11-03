@@ -1,0 +1,96 @@
+{
+  "test_metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.9183,
+      "AUC": 0.9774,
+      "Precision": 0.9107,
+      "Recall": 0.9107,
+      "F1": 0.9107,
+      "MCC": 0.8354
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9135,
+      "AUC": 0.9656,
+      "Precision": 0.9037,
+      "Recall": 0.9077,
+      "F1": 0.9057,
+      "MCC": 0.8259
+    },
+    "KNN": {
+      "Accuracy": 0.9285,
+      "AUC": 0.9798,
+      "Precision": 0.9276,
+      "Recall": 0.9152,
+      "F1": 0.9213,
+      "MCC": 0.8559
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8938,
+      "AUC": 0.9592,
+      "Precision": 0.8817,
+      "Recall": 0.8869,
+      "F1": 0.8843,
+      "MCC": 0.7862
+    },
+    "SVM": {
+      "Accuracy": 0.9353,
+      "AUC": 0.985,
+      "Precision": 0.9351,
+      "Recall": 0.9226,
+      "F1": 0.9288,
+      "MCC": 0.8696
+    }
+  },
+  "confusion": {
+    "Logistic Regression": {
+      "TN": 737,
+      "FP": 60,
+      "FN": 60,
+      "TP": 612
+    },
+    "Decision Tree": {
+      "TN": 732,
+      "FP": 65,
+      "FN": 62,
+      "TP": 610
+    },
+    "KNN": {
+      "TN": 749,
+      "FP": 48,
+      "FN": 57,
+      "TP": 615
+    },
+    "Naive Bayes": {
+      "TN": 717,
+      "FP": 80,
+      "FN": 76,
+      "TP": 596
+    },
+    "SVM": {
+      "TN": 754,
+      "FP": 43,
+      "FN": 52,
+      "TP": 620
+    }
+  },
+  "best_params": {
+    "Logistic Regression": {
+      "C": 10
+    },
+    "Decision Tree": {
+      "max_depth": 4,
+      "min_samples_leaf": 20
+    },
+    "KNN": {
+      "n_neighbors": 11,
+      "weights": "distance"
+    },
+    "Naive Bayes": {
+      "var_smoothing": 1e-05
+    },
+    "SVM": {
+      "C": 30,
+      "gamma": "scale"
+    }
+  }
+}

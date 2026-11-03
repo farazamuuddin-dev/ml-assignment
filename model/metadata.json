@@ -1,0 +1,28 @@
+{
+  "target": "high_co",
+  "co_threshold_mg_m3": 2.0,
+  "features": [
+    "sensor_co_tin_oxide",
+    "sensor_nmhc_titania",
+    "sensor_nox_tungsten",
+    "sensor_no2_tungsten",
+    "sensor_o3_indium",
+    "temperature_c",
+    "relative_humidity",
+    "absolute_humidity",
+    "hour_sin",
+    "hour_cos",
+    "day_of_week",
+    "is_weekend",
+    "month"
+  ],
+  "class_labels": {
+    "0": "Normal CO",
+    "1": "High CO"
+  },
+  "n_rows": 7344,
+  "n_train": 5875,
+  "n_test": 1469,
+  "high_co_share": 0.4577,
+  "random_state": 42
+}
