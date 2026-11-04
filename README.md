@@ -1,7 +1,7 @@
 # AirSense CO Alert — ML Assignment 2
 
-**Live Streamlit app:** `<paste your Streamlit Community Cloud URL here>`
-**GitHub repository:** `<paste your GitHub repository URL here>`
+**Live Streamlit app:** `https://faraz-ml-assignment.streamlit.app/`
+**GitHub repository:** `https://github.com/farazamuuddin-dev/ml-assignment`
 
 ## a. Problem statement
 
@@ -82,7 +82,7 @@ forecasting a completely unseen future period.
 
 ## c. GitHub repository
 
-`<paste your GitHub repository URL here>`
+`https://github.com/farazamuuddin-dev/ml-assignment`
 
 ```
 ml-assignment2/
