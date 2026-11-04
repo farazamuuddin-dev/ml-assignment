@@ -5,6 +5,7 @@
 
 ## a. Problem statement
 
+
 Certified reference analysers for carbon monoxide (CO) are expensive, so cities
 want to know whether cheap metal-oxide gas sensors can stand in for them. This
 project frames that as a **binary classification** problem: using only the five
